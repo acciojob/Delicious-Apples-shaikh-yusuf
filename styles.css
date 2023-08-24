@@ -1,1 +1,59 @@
 /* your code here */
+body{
+	background:lightgreen
+}
+.product{
+	display:flex;
+	background:white;
+	height:500px;
+	
+	
+}
+.photo-main{
+	background:yellowgreen;
+	margin-right:20px;
+}
+.controls {
+	color:white;
+	display:flex;
+	 justify-content:space-between;	
+}
+.photo-album li{
+	display:inline;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.photo-album li img{
+	border:1px solid rgba(149, 157, 165, 0.2);
+}
+
+.product__info .title span{
+color:gray;
+	
+}
+.price span{
+	color:red;
+}
+.variant li{
+	color:gray;
+	display:inline;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h3{
+	color:gray;
+}
+.description{
+	color:gray;
+}
+.ADD-TO-CART button{
+	margin:10px 0px 0px 50px;
+	padding:5px;
+	font-size:15px;
+	color:white;
+	background:red;
+	outline:none;
+	border:0px solid red;
+	border-radius:5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
